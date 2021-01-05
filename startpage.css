@@ -1,0 +1,102 @@
+h1 {
+    color: #093426;
+    font-family: Georgia, serif;
+    text-align:center;
+    font-size: 2.5em;
+    letter-spacing: 6px;
+    text-shadow: 1px 2px 2px #448D76;
+}
+h2 {
+    color: #093426;
+    font-family: Georgia, serif;
+    font-size: 1.62em;
+    letter-spacing: 2px;
+    text-shadow: 1px 2px 2px #448D76;
+}
+body {
+    margin-left:6%;
+    margin-right:6%;
+    background-color: #E7F3EF;
+    color: #093426;
+#    font-size: 100%;
+    font-size: 1em;
+    font-family: verdana, sans-serif;
+}
+
+ /* unvisited link */
+a:link {
+  color: #23483C;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #448D76;
+  text-decoration: none;
+}
+
+/* mouse over link, selected link */
+a:hover, a:active {
+  background-color: #093426;
+  color: #E7F3EF;
+  text-decoration: underline;
+}
+
+li {
+    padding: 8px;
+    margin-left: 32px;
+}
+
+ul.none {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Gradient color1 - color2 - color1 */
+
+hr.gradient {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+/* Double-color dashed line */
+
+hr.perforated {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}
+
+address {
+    font-size: 0.750em;
+    font-family: Lucida Console, Monospace;
+    text-align:right;
+}
+
+.right_heading {
+    font-family: Georgia, serif;
+    font-size: 1.12em;
+    font-weight: bold;
+    text-align:right;
+    list-style-type: none;
+    margin-right: 24px;
+    padding: 8px 16px;
+}
+
+.home {
+  border: none;
+  background-color: inherit;
+  padding: 6px 12px;
+  font-size: 0.92em;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+  color: #093426;
+}
+
+.home:hover {background-color: #093426;
+  color: pink;
+}
