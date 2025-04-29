@@ -100,3 +100,33 @@ address {
 .home:hover {background-color: #093426;
   color: pink;
 }
+
+.menu-right {
+  background-transparent; /* Use transparent background */
+  background-color: #E7F3EF; /* Light background */
+  position: fixed;
+  top: 1%;
+  right: 1%;
+  z-index: 1000;           /* Ensures it's above other content */
+}
+.menu-right ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.menu-right li {
+  font-weight: bold;
+  font-size: 1.08em;
+  margin: 1px 0;
+}
+.menu-right a {
+  text-decoration: none;
+  color: #093426;
+  padding: 2% 12px;
+  display: block;
+  border-radius: 4px;
+}
+.menu-right a:hover {
+  background-color: #093426;
+  color: #E7F3EF;
+}
